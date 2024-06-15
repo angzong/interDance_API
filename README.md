@@ -1,5 +1,6 @@
 # interDance_render
-render code for interDance  
+The render code for interDance  
+The complete project code, including data preprocessing, will be made publicly available after the paper is accepted!!!!   
 For more details, please visit our [webpage](https://interdance.github.io/).
 ## Getting started
 
