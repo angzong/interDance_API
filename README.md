@@ -1,6 +1,6 @@
-# interDance_render
+# interDance_API
 The render code for interDance  
-The complete project code, including data preprocessing, will be made publicly available after the paper is accepted!!!!   
+The complete project code, including data preprocessing, training, inference and evaluating with our pretrained model, will be made publicly available after the paper is accepted!!!!   
 For more details, please visit our [webpage](https://interdance.github.io/).
 ## Getting started
 
@@ -20,9 +20,9 @@ tqdm==4.66.1
 ### 2. Run
 render smplx file
 ```shell 
-python render655.py --modir 'smplx pkl path' --mode smplx --fps 8 --outdir ./video_gt
+python render.py --modir 'smplx pkl path' --mode smplx --fps 8 --outdir ./video_gt
 ```
 render ver655 file
 ```shell 
-python render655.py --modir 'ver655 npy path' --mode ver655 --fps 8
+python render.py --modir 'ver655 npy path' --mode ver655 --fps 8
 ```
